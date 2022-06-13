@@ -86,7 +86,13 @@
 
 					<section id="methods">
 						<h2>Methods</h2>
-						<p> I use computational hydrodynamics (grid/SPH) and radiative transfer (<a href="https://ui.adsabs.harvard.edu/abs/2019A%26C....27...63H/abstract">Monte Carlo radiative transfer</a>/<a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.1672B/abstract">ray tracing</a>) to simulate stellar feedback in GMCs.</p> 
+						<p> I simulate stellar feedback in GMCs using computational hydrodynamics and radiative transfer:
+                     <ul>
+                        <li>I use <a href="https://ui.adsabs.harvard.edu/abs/2019A%26C....27...63H/abstract">Monte Carlo radiative transfer</a> on a grid to apply high-accuracy radiative feedback in isolated cloud models. This calculates ionized gas temperatures and radiation pressures for different gas/dust compositions.</li>
+                        <li>I carry out galaxy zoom-ins using smoothed particle hydrodynamics and <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.1672B/abstract">ray tracing</a>. This includes galaxy-scale dynamics and self-consistent interactions between clouds.</li>
+                     I also use synthetic observations to compare my simulations with real data (e.g. radio free-free continuum, optical recombination/forbidden lines, IR from dust).
+                     </ul>
+                  </p> 
                </section>
 
 					<section id="papers">
